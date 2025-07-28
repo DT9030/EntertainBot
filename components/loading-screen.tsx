@@ -54,19 +54,6 @@ export default function LoadingScreen() {
 
           <p className="text-xl text-purple-600 dark:text-purple-400 font-semibold">{progress}%</p>
         </div>
-
-        {/* Simple pulsing dots */}
-        <div className="flex justify-center space-x-3 mt-8">
-          <div className="w-3 h-3 bg-purple-500 rounded-full animate-pulse" style={{ animationDuration: "1.5s" }} />
-          <div
-            className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"
-            style={{ animationDelay: "0.3s", animationDuration: "1.5s" }}
-          />
-          <div
-            className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"
-            style={{ animationDelay: "0.6s", animationDuration: "1.5s" }}
-          />
-        </div>
       </div>
     </div>
   )
